@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Anki Issue
+description: 提交您对本项目维护的闪卡的意见
 title: "[Anki]: "
 labels: [闪卡, triage]
 body:
