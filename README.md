@@ -49,7 +49,7 @@ NCEE，即```National College Entrance Examnation```，同样被称作高考，�
 大量的Pull Request需要讨论、Review，如果您认为您有这个能力，您也可以考虑加入我们的计划，成为推动这个项目的协作者的一员，协助维护这个项目健康并活跃运行。
 在申请成为协助者以前，请阅读下面的材料。
 
-\[Todo\]
+[协助者指南](COLLABORATOR.md)
 
 ## 协议 - License
 
