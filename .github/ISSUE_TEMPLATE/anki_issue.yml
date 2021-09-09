@@ -1,0 +1,68 @@
+name: Bug Report
+description: File a bug report
+title: "[Anki]: "
+labels: [闪卡, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您参与OpenNCEE项目
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 我们该以什么方式联系您获取更多信息？
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: 这个issue需要解决什么问题？
+      options:
+        - 缺少知识点/闪卡
+        - 闪卡有误
+        - 需要更新教材或大纲版本
+        - 添加新的闪卡
+  - type: dropdown
+    id: version
+    attributes:
+      label: 科目
+      description: 这个issue是关于什么科目的
+      options:
+        - 语文
+        - 数学
+        - 英语
+        - 物理
+        - 化学
+        - 生物
+        - 历史
+        - 政治
+        - 地理
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 描述您的问题
+      description: 请描述您具体需要解决的问题。
+      placeholder: 详细信息与描述...
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 您对当下的意见
+      description: 请留下您富有建设性的宝贵意见。
+      placeholder: 详细描述您的意见（选填）...
+    validations:
+      required: false
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 社区协议
+      description: 提交这个issue的同时，我已经确保我阅读了所有的社区规范与协议。
+      options:
+        - label: 我同意遵守OpenNCEE社区规范与协议。
+          required: true
