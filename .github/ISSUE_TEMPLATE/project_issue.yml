@@ -1,6 +1,6 @@
 name: Project issue
 description: 为这个项目的发展提供您的建议。
-title: "[Project Related] <title>"
+title: "[Project Related] "
 labels: [triage]
 body:
   - type: markdown
