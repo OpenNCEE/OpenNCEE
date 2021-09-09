@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OpenNCEE社区讨论
+    url: https://github.com/OpenNCEE/OpenNCEE/discussions
+    about: 请确保您的issue符合一个issue的作用，而不是更像一个讨论。
+  - name: OpenNCEE Issues Tracker
+    url: https://github.com/OpenNCEE/OpenNCEE/issues
+    about: 请在提交您的issue提前确保没有相似的issue已经被提交。
