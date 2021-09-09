@@ -1,1 +1,51 @@
-
+name: Collaboration Request
+description: 申请成为本项目的协作者。
+title: "[Collaboration Request] "
+labels: [协助者申请]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您参与OpenNCEE项目
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 我们该以什么方式联系您获取更多信息？
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: id
+    attributes:
+      label: 您的身份？
+      options:
+        - 在校高中生
+        - 在校本科及以上学生
+        - 高中或大学教师
+        - 社会教育人士
+        - 其他...
+  - type: input
+    id: id-extra
+    attributes:
+      label: 其他身份
+      description: 如果上面没有您的身份所符合的选项，那么您的身份是？
+      placeholder: ...
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: 描述您自己
+      description: 请描述您可以解决的问题，以及与项目协作相关的个人情况。
+      placeholder: 详细信息与描述...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 社区协议
+      description: 提交这个issue的同时，我已经确保我阅读了所有的社区规范与协议。
+      options:
+        - label: 我同意遵守OpenNCEE社区规范与协议。
+          required: true
