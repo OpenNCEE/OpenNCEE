@@ -1,1 +1,42 @@
-
+name: Project issue
+description: 为这个项目的发展提供您的建议。
+title: "[Project Related] <title>"
+labels: [triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您参与OpenNCEE项目
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 我们该以什么方式联系您获取更多信息？
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: 这个issue需要解决什么问题？
+      options:
+        - 社区规则存在问题
+        - 内容规范存在问题
+        - 教学资料需要更新
+        - 其他新的想法✨
+  - type: textarea
+    id: problem
+    attributes:
+      label: 描述您的问题
+      description: 请描述您具体需要解决的问题，以及解决方案。
+      placeholder: 详细信息与描述...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 社区协议
+      description: 提交这个issue的同时，我已经确保我阅读了所有的社区规范与协议。
+      options:
+        - label: 我同意遵守OpenNCEE社区规范与协议。
+          required: true
