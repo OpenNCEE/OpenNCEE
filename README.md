@@ -1,5 +1,12 @@
 # OpenNCEE - 自由的高考指南
 
+![](https://img.shields.io/github/contributors/OpenNCEE/OpenNCEE)
+![](https://img.shields.io/github/license/OpenNCEE/OpenNCEE)
+![](https://img.shields.io/github/forks/OpenNCEE/OpenNCEE)
+![](https://img.shields.io/github/stars/OpenNCEE/OpenNCEE)
+![](https://img.shields.io/github/issues/OpenNCEE/OpenNCEE)
+![](https://img.shields.io/github/issues-pr/OpenNCEE/OpenNCEE)
+
 > 更高效地完成高中学习，将学生从内卷中解放出来。
 
 本项目服务中国大陆在校高中生，因此本项目的主要语言为**简体中文**，您拥有在本项目内使用简体中文讨论、协作与贡献的自由。
